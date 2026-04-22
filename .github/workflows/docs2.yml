@@ -26,7 +26,7 @@ jobs:
       uses: actions/upload-pages-artifact@v5.0.0
       with:
         name: # optional, default is github-pages
-        path: # default is _site/
+        path: docs
         retention-days: 100
         include-hidden-files: # optional, default is false
           
